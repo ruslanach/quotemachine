@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+div {
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+.quoteBox{
+    border-radius: 3px;
+    padding: 20px 20px;
+    display: inline-block;
+   background-color: #fff;
+}
+.mainDiv {
+    /*background-color: #a06f97;*/
+    /*width: 450px;*/
+   font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.footer {
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin: 15px auto 30px auto;
+    font-size: 0.8em;
+    color: #fff;
+}
+.footer a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.quoteText {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+    /*color: #16a085;*/
+}
+.quoteText i {
+    font-size: 1em;
+    margin-right: 0.4em;
+}
+.quoteAuthor {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding: 10px;
+    font-size: 1em;
+    text-align: right;
+    /*color: #16a085;*/
+}
+.buttons {
+    width: 450px;
+    margin: auto;
+    display: block;
+}
+.buttons .button {
+
+    float: left;
+    padding: 5px;
+    text-align: center;
+    margin-right: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.buttonQuote {
+    float: right;
+
+}
+
+.buttonQuote:active, .buttonQuote:focus {
+    outline: none;
+    border: none;
+
+}
+@media only screen and (max-width: 500px) {
+    .wrapper {
+
+        width: 330px;
+
+    }
+    .quoteBox{
+         padding: 5px 5px;
+
+    }
+    .footer {
+        width: 330px;
+        margin: 5px auto 5px auto;
+        font-size: 0.5em;
+
+    }
+    .footer a {
+        font-weight: 300;
+    }
+    .quoteText {
+        width: 330px;
+        font-weight: 300;
+        font-size: 1.25em;
+    }
+    .quoteText i {
+        font-size: 0.8em;
+        margin-right: 0.2em;
+    }
+    .quoteAuthor {
+        width: 330px;
+        padding: 5px;
+        font-size: 0.8em;
+
+    }
+    .buttons {
+        width: 330px;
+
+    }
+    .buttons .button {
+
+        padding: 3px;
+        margin-right: 3px;
+
+    }
+
+}
+
